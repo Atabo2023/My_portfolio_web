@@ -26,7 +26,7 @@ export const Aboutalone = () => {
       </div>
 
       {/* Intro */}
-      <h1 className="text-4xl font-medium md:font-bold mb-3 text-center">
+      <h1 className="text-2xl md:text-4xl font-medium md:font-bold mb-3 text-center">
         About Me
       </h1>
 
