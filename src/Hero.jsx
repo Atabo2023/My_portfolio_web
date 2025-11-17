@@ -82,12 +82,19 @@ const Hero = () => {
         </h2>
 
         <div className="items-center justify-center">
-          <img
-            fetchPriority="high"
-            className="md:w-[30%] w-[45%] border-r-4 border-orange-500 sm:h-[22rem] md:h-[22rem] rounded-full mx-auto items-center animate-pulse shadow-lg shadow-[#ffbd39] my-10 md:mt-10"
-            src={Bebpic1}
-            alt="backImage"
-          />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+            // className="w-44 h-44 rounded-full overflow-hidden border-4 border-yellow-400 shadow-2xl mb-6"
+          >
+            <img
+              fetchPriority="high"
+              className="md:w-[30%] w-[45%] border-r-4 border-orange-500 sm:h-[22rem] md:h-[22rem] rounded-full mx-auto items-center animate-pulse shadow-lg shadow-[#ffbd39] my-10 md:mt-10"
+              src={Bebpic1}
+              alt="backImage"
+            />
+          </motion.div>
 
           <div className="md:flex hidden justify-between">
             <video

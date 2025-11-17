@@ -2,11 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import BebPic2 from "../src/Images/BebPic2.jpg";
 import Marquee from "react-fast-marquee";
+import { About2 } from "./About2.jsx";
+
+// ABOUT ARROW CTA COMPONENT
+// Place this anywhere on your homepage or hero section.
+// When clicked, it scrolls the user smoothly to your About section.
 
 const About = () => {
   return (
     // <>
-    <div className="mb-8 border-b-black border-b-8 border-orange-500">
+    <div
+      id="About"
+      className="mb-8 border-b-black border-b-8 border-orange-500"
+    >
       <section id="about" className="bio-snippet">
         <h2 className="flex font-rubik text-justify text-3xl md:text-4xl mt-10 font-bold justify-center text-orange-500 align-middle underline underline-offset-8">
           About Me
@@ -18,10 +26,8 @@ const About = () => {
             transition={{ duration: 2 }}
             className=" text-black rounded"
           >
-        
-
             <div className="md:flex gap-16 mx-12 ">
-              <div className="flex-1 md:p-4 h-1/2 md:h-screen rounded-xl md:mt-28">
+              <div className="flex-1 md:p-4 h-1/2 md:h-screen rounded-xl md:mt-40 align-middle">
                 <img
                   // fetchpriority="high"
                   className="md:w-[75%] hidden md:block border-r-8 border-orange-500 w-[65%] mt-8 md:mt-16 h-[20rem] md:h-[26rem] rounded-full mx-auto transition-transform md:items-center md:align-bottom"
@@ -30,18 +36,16 @@ const About = () => {
                 />
               </div>
 
-              <div className="flex-1 p-2 rounded-xl">
+              <div id="About" className="flex-1 p-2 rounded-xl">
                 <span className="flex justify-center gap-2 font-rubik text-2xl md:text-3xl font-semibold sm:mt-10 md:mt-16 mb-4">
                   Read More About Me
                 </span>{" "}
-              
+                <About2 />
                 <div
                   className="bg-black text-white rounded-2xl w-fit justify-center items-start text-xl font-rubik md:px-2
                text-center place-content-center max-w-2xl"
                 >
                   <div className="h-5/6 w-fit md:bg-white px-2 sm:text-2xl text-white md:text-black mt-4 md:mt-0 p-2 justify-center">
-                  
-
                     <p>
                       Hello! I'm Onuche Victor Atabo, a graduate applied
                       chemistry and currently PGD Computer science student of
@@ -64,10 +68,9 @@ const About = () => {
                     <p>
                       Beyond technology, I helped young graduates navigate their
                       ways througgh the part of tech, I'm an entrepreneur
-                      managing businesses, online visibility
-                      through Google my bussiness. I thrive in collaborative
-                      environments and Exploring how software can power clean
-                      energy innovation.
+                      managing businesses, online visibility through Google my
+                      bussiness. I thrive in collaborative environments and
+                      Exploring how software can power clean energy innovation.
                     </p>
                     <br></br>
                   </div>
@@ -115,6 +118,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    // </>
   );
 };
 

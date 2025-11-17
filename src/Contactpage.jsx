@@ -51,8 +51,7 @@ const Contactpage = () => {
           Send <br></br>a Message
         </h2>
         <p className="text-left font-rubik text-xl text-white md:text-xl justify-center align-middle py-10">
-          whether is a job opportunity, collaboration, Other offers, Message me,
-          I will response ASAP
+          Let’s collaborate on something amazing. My inbox is always open.
         </p>
 
         <div className="flex flex-col justify-left align-middle">
@@ -112,9 +111,12 @@ const Contactpage = () => {
           <Download className="w-5 h-5" />
           Download Resume
         </a>
-        <div className="pointer-events-none">
+        <div className="pointer-events-none md:mt-0">
           <Data />
         </div>
+        <footer className="mt-16 text-gray-600 text-sm z-20">
+          © {new Date().getFullYear()} Victor Onuche — All Rights Reserved.
+        </footer>
       </div>
       <div></div>
       <div className="flex-1 bg-white md:p-8 gap-8 rounded-xl">

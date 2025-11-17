@@ -81,13 +81,7 @@ const Stars = () => {
           }}
         ></div>
       ))}
-
-      {/* Footer Text */}
-      <div className="text-center z-10">
-        {/* <h3 className="text-white text-lg md:text-xl font-semibold tracking-wide drop-shadow-lg">
-          ✨ Thanks for visiting my portfolio ✨
-        </h3> */}
-      </div>
+      <div className="text-center z-10"></div>
       <p className="text-gray-300 mt-6 hidden md:block text-sm ">
         We keep shining! ✨✨✨
       </p>

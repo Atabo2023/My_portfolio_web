@@ -30,7 +30,7 @@ const About1 = () => {
           />
         </div>
 
-        <h2 className="text-lg font-rubik text-gray-200 mb-6">
+        <h2 className="text-lg font-rubik px-6 md:px-0 text-gray-200 mb-6">
           SOFTWARE ENGINEER || TECHNICAL SUPPORT ENGINEER
         </h2>
       </div>
@@ -51,7 +51,6 @@ const About1 = () => {
 };
 
 export default About1;
-
 
 // git init
 // git add README.md
