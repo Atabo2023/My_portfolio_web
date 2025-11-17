@@ -34,7 +34,7 @@ export const Aboutalone = () => {
         I'm a passionate{" "}
         <span className="text-yellow-400 font-medium md:font-semibold">
           Frontend Engineer || Technical Support Enginneer
-        </span>
+        </span>{" "}
         with a strong focus on solving technmical issues and building visually
         appealing, responsive, and user-friendly web applications. I love
         turning ideas and business needs into beautiful and functional digital
