@@ -1,6 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail, ArrowLeft, Sparkles } from "lucide-react";
-import Bebpic1 from "../src/Images/Bebpic1.jpg";
+import pict4 from "../src/Images/pict4.jpg";
 // import Marquee from "react-fast-marquee";
 import { About2 } from "./About2";
 
@@ -18,11 +18,7 @@ export const Aboutalone = () => {
 
       {/* Profile Image */}
       <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-yellow-400 shadow-xl mb-6">
-        <img
-          src={Bebpic1}
-          alt="profile"
-          className="w-full h-full object-cover"
-        />
+        <img src={pict4} alt="profile" className="w-full h-full object-cover" />
       </div>
 
       {/* Intro */}
@@ -33,7 +29,7 @@ export const Aboutalone = () => {
       <p className="text-gray-300 px-2 md:px-0 text-lg leading-relaxed text-center max-w-2xl font-rubik">
         I'm a passionate{" "}
         <span className="text-yellow-400 font-medium md:font-semibold">
-          Frontend Engineer||Technical Support Enginneer
+          Frontend Engineer || Technical Support Enginneer
         </span>
         with a strong focus on solving technmical issues and building visually
         appealing, responsive, and user-friendly web applications. I love
@@ -42,7 +38,7 @@ export const Aboutalone = () => {
       </p>
 
       <div className="mt-12 text-center">
-        <h2 className="text-2xl font-medium md:font-semibold mb-4 text-yellow-400">
+        <h2 className="text-xl font-medium md:font-semibold mb-4 text-yellow-400">
           Get In Touch
         </h2>
 
