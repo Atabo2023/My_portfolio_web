@@ -114,7 +114,7 @@ const Contactpage = () => {
         <div className="pointer-events-none md:mt-0">
           <Data />
         </div>
-        <footer className="mt-16 text-gray-600 text-sm z-20">
+        <footer className="mt-16 md:block hidden text-gray-600 text-sm z-20">
           © {new Date().getFullYear()} Victor Onuche — All Rights Reserved.
         </footer>
       </div>
