@@ -5,8 +5,12 @@ import pict4 from "../src/Images/pict4.jpg";
 import { About2 } from "./About2";
 
 export const Aboutalone = () => {
+  window.open("/About", "_blank", "noopener,noreferrer");
   return (
-    <div className="h-[60%] w-full overflow-hidden mt-10 bg-[#000211] text-white px-6 py-10 flex flex-col items-center">
+    <div
+      id="About"
+      className="h-[60%] cursor-pointer w-full overflow-hidden mt-10 bg-[#000211] text-white px-6 py-10 flex flex-col items-center"
+    >
       {/* Back to Portfolio */}
       <a
         href="/"
