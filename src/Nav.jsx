@@ -12,7 +12,7 @@ const Nav = () => {
           <a href="#" className="hover:text-gray-400">
             Home
           </a>
-          <a href="#about" className="hover:text-gray-400">
+          <a href="#About" className="hover:text-gray-400">
             About
           </a>
           <a href="#" className="hover:text-gray-400">

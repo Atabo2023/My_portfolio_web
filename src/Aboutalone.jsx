@@ -2,10 +2,10 @@ import React from "react";
 import { Github, Linkedin, Mail, ArrowLeft, Sparkles } from "lucide-react";
 import pict4 from "../src/Images/pict4.jpg";
 // import Marquee from "react-fast-marquee";
-import { About2 } from "./About2";
+import About2 from "./About2";
 
 export const Aboutalone = () => {
-  window.open("/About", "_blank", "noopener,noreferrer");
+  window.open("/about", "_blank", "noopener,noreferrer");
   return (
     <div
       id="About"
@@ -128,3 +128,5 @@ export const Aboutalone = () => {
     // </>
   );
 };
+
+export default Aboutalone;

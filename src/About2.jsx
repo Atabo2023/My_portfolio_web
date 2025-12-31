@@ -2,15 +2,18 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowDownCircle, ArrowLeft } from "lucide-react";
 
-export const About2 = () => {
+const About = () => {
   const handleRedirect = () => {
-    window.open("/Aboutalone", "_blank");
+    window.open("/About", "_blank");
   };
 
+  const About = () => {
+    window.open("/about", "_blank", "noopener,noreferrer");
+  };
   return (
     <>
       {" "}
-      <div className="w-full flex flex-col justify-center mt-10">
+      <div className="w-full flex flex-col justify-center mt-6 md:mt-10 mb-6">
         <motion.button
           onClick={handleRedirect}
           initial={{ opacity: 0, y: -10 }}
@@ -23,6 +26,7 @@ export const About2 = () => {
             transition={{ duration: 1.5, repeat: Infinity }}
           >
             <ArrowDownCircle
+              onClick={About}
               size={60}
               className="text-black drop-shadow-lg transition-all group-hover:text-yellow-400 group-hover:scale-110"
             />
@@ -58,3 +62,5 @@ export const About2 = () => {
     </>
   );
 };
+
+export default About;

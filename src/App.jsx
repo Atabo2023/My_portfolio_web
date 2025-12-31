@@ -1,9 +1,9 @@
 import React from "react";
-// import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import About1 from "./About1";
-// import About from "./About";
+import About from "./About";
 import Marquee from "react-fast-marquee";
 import Contactpage from "./Contactpage";
 import Profile from "./Profile";
@@ -19,17 +19,16 @@ const App = () => {
       {/* <About2 /> */}
       {/* <About /> */}
       <Aboutalone />
-      {/* <Routes>
-        <Route path="/Aboutalone" element={<Aboutalone />} />
-      </Routes> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/About" element={<About />} />
+        </Routes>
+      </BrowserRouter>
       {/* <Profile1 /> */}
       <Profile />
       <Marquee />
       <Contactpage />
-     
-    
     </>
-   
   );
 };
 

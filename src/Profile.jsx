@@ -49,7 +49,7 @@ const Profile = () => {
   return (
     <section
       id="work"
-      className="bg-gray-50 dark:bg-gray-900 py-16 px-6 transition-colors duration-500"
+      className="bg-gray-50 drop-shadow-xl dark:bg-gray-900 py-16 px-6 transition-colors duration-500"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold font-rubik text-orange-600 mb-4">

@@ -119,9 +119,10 @@ const Contactpage = () => {
         </footer>
       </div>
       <div></div>
-      <div className="flex-1 bg-white md:p-8 gap-8 rounded-xl">
+
+      <div className="flex-1 bg-white pb-4 md:pb-0 md:px-8 gap-8 rounded-xl">
         {" "}
-        <h2 className="text-2xl font-bold text-center font-rubik text-black mb-6">
+        <h2 className="text-2xl pt-4 md:pt-2 font-bold text-center font-rubik text-black mb-6">
           Get In Touch
         </h2>
         <input

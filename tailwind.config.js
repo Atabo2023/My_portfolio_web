@@ -8,6 +8,9 @@ export default {
         rubik: ["Rubik", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      dropShadow: {
+        "3xl": "0 10px 10px rgba(0, 0, 0, 0.5)",
+      },
     },
 
     fontFamily: {

@@ -2,13 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import BebPic2 from "../src/Images/BebPic2.jpg";
 import Marquee from "react-fast-marquee";
-import { About2 } from "./About2.jsx";
+import About2 from "./About2.jsx";
 
 // ABOUT ARROW CTA COMPONENT
 // Place this anywhere on your homepage or hero section.
 // When clicked, it scrolls the user smoothly to your About section.
 
 const About = () => {
+  window.open("/about", "_blank", "noopener,noreferrer");
+
   return (
     // <>
     <div
