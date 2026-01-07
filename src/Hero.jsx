@@ -27,7 +27,7 @@ const Hero = () => {
         <p className="text-3xl font-bold text-[#ffbd39]">
           A Frontend Engineer,{" "}
           <span className="text-white font-normal">
-            <br></br>and an IT support specialist
+            <br></br>and an IT support Engineer
           </span>
         </p>
         <p className="text-white font-rubik text-xl md:text-lg">
