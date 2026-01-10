@@ -30,15 +30,15 @@ export const Aboutalone = () => {
         About Me
       </h1>
 
-      <p className="text-gray-300 px-2 md:px-0 text-lg leading-relaxed text-center max-w-2xl font-rubik">
+      <p className="text-gray-300 px-2 md:px-0 text-lg leading-relaxed text-center max-w-xl font-rubik">
         I'm a passionate{" "}
         <span className="text-yellow-400 font-medium md:font-semibold">
-          Frontend Engineer || Technical Support Enginneer
+          IT Support Enginneer || Frontend Engineer
         </span>{" "}
         with a strong focus on solving technmical issues and building visually
-        appealing, responsive, and user-friendly web applications. I love
-        turning ideas and business needs into beautiful and functional digital
-        experiences.
+        appealing, responsive, Realiable, and user-friendly web applications. I
+        love problem solving, troubleshooting, turning ideas and business needs
+        into beautiful and functional digital experiences.
       </p>
 
       <div className="mt-12 text-center">

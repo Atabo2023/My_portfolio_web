@@ -25,9 +25,9 @@ const Hero = () => {
         {/* </div> */}
         {/* I'm Victor Onuche */}
         <p className="text-3xl font-bold text-[#ffbd39]">
-          A Frontend Engineer,{" "}
+          An IT support Engineer,{" "}
           <span className="text-white font-normal">
-            <br></br>and an IT support Engineer
+            <br></br>and a Frontend Engineer
           </span>
         </p>
         <p className="text-white font-rubik text-xl md:text-lg">
@@ -38,10 +38,10 @@ const Hero = () => {
             transition={{ duration: 2 }}
             className=" text-white pt-4 rounded shadow-lg w-full"
           >
-            I build Frontend application with IT support skills. <br></br> I
-            ensure the application are build are Responsive, <br></br>{" "}
-            seameless, scaleable, users friendly <br></br>and browser
-            compatibility. <br></br>
+            I build Frontend application with indept IT support skills.{" "}
+            <br></br> I ensure the application build are Responsive, <br></br>{" "}
+            seameless, Realiable, scaleable, users friendly <br></br>
+            and browser compatibility. <br></br>
             <span className="text-lg text-white sm:text-base font-medium">
               <span className="pr-2">🌍</span> Available for collaborations!
             </span>

@@ -31,7 +31,7 @@ const About1 = () => {
         </div>
 
         <h2 className="text-lg font-rubik px-6 md:px-0 text-gray-200 mb-6">
-          SOFTWARE ENGINEER || TECHNICAL SUPPORT ENGINEER
+          IT SUPPORT ENGINEER || SOFTWARE ENGINEER
         </h2>
       </div>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
